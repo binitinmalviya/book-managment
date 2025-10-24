@@ -1,0 +1,476 @@
+[
+  {
+    "_id": "68fb21ebec32a89e3217b7e5",
+    "method": "POST",
+    "url": "/api/auth/login",
+    "headers": {
+      "content-type": "application/json",
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "ea041aab-0dd5-4051-8a42-3550752ef05a",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "94"
+    },
+    "body": {
+      "email": "nitinmalviya@gmail.com",
+      "password": "12345678",
+      "role": "admin"
+    },
+    "response": "{\"success\":true,\"statusCode\":200,\"user\":{\"_id\":\"68ef9a2751c2a8a881573f8e\",\"firstName\":\"Nitin\",\"lastName\":\"Malviya\",\"role\":\"admin\",\"email\":\"nitinmalviya@gmail.com\"},\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmOWEyNzUxYzJhOGE4ODE1NzNmOGUiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjEyODg2ODMsImV4cCI6MTc2MTM0MjY4M30.8IJU_d-H8zvEWsAZuQwklLubF-EGoXKiqZ-I6dYsI_o\",\"message\":\"User logged in successfully\"}",
+    "dateTime": "24/10/2025, 12:21:23 pm",
+    "duration": 174,
+    "createdAt": "2025-10-24T06:51:23.370Z",
+    "updatedAt": "2025-10-24T06:51:23.370Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2248ec32a89e3217b7e7",
+    "method": "PUT",
+    "url": "/api/books/68ef917783a1d373c54b65f7",
+    "headers": {
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmODFiODQ0MzRiZGJhNTEwZWNkNzYiLCJpYXQiOjE3NjA1MjY3NzcsImV4cCI6MTc2MDU4MDc3N30.LZT9_hFzEI4_NemIyB7rVs1RFSf6LMDp35mkw7p3L5A",
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "819882d1-bd5c-4dac-8e5c-6fc3240aa664",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-type": "multipart/form-data; boundary=--------------------------521686388455265468056324",
+      "content-length": "72417"
+    },
+    "response": "{\"message\":\"Unauthorized\",\"statusCode\":401}",
+    "dateTime": "24/10/2025, 12:22:56 pm",
+    "duration": 12,
+    "createdAt": "2025-10-24T06:52:56.466Z",
+    "updatedAt": "2025-10-24T06:52:56.466Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb225cec32a89e3217b7e9",
+    "method": "GET",
+    "url": "/api/books/68ef9a4551c2a8a881573f90",
+    "headers": {
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmOWEyNzUxYzJhOGE4ODE1NzNmOGUiLCJpYXQiOjE3NjA1MzMwMzEsImV4cCI6MTc2MDU4NzAzMX0.nQFwGrbHo1N2IGWk3-MFmb93CLLfrl1_9Rafq9vH2cc",
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "b7abd023-f7a2-4da2-8f94-7ab24bc007be",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Unauthorized\",\"statusCode\":401}",
+    "dateTime": "24/10/2025, 12:23:16 pm",
+    "duration": 10,
+    "createdAt": "2025-10-24T06:53:16.860Z",
+    "updatedAt": "2025-10-24T06:53:16.860Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb228eec32a89e3217b7eb",
+    "method": "DELETE",
+    "url": "/api/books/68f0d9562a7b75577313784b",
+    "headers": {
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmODFiODQ0MzRiZGJhNTEwZWNkNzYiLCJpYXQiOjE3NjA1MjY3NzcsImV4cCI6MTc2MDU4MDc3N30.LZT9_hFzEI4_NemIyB7rVs1RFSf6LMDp35mkw7p3L5A",
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "b5d43bbb-540a-4c05-b362-e9bfd61b00d2",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Unauthorized\",\"statusCode\":401}",
+    "dateTime": "24/10/2025, 12:24:06 pm",
+    "duration": 3,
+    "createdAt": "2025-10-24T06:54:06.464Z",
+    "updatedAt": "2025-10-24T06:54:06.464Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb22dfec32a89e3217b7ed",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "92cc103f-632f-4bec-afde-92ca222872cd",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:25:27 pm",
+    "duration": 4,
+    "createdAt": "2025-10-24T06:55:27.580Z",
+    "updatedAt": "2025-10-24T06:55:27.580Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2452d6c4040a3568b7a1",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "16089cf5-8f90-4306-b808-48a3265ed833",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:31:38 pm",
+    "duration": 8,
+    "createdAt": "2025-10-24T07:01:38.123Z",
+    "updatedAt": "2025-10-24T07:01:38.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2453d6c4040a3568b7a3",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "fb22b694-73f9-4a44-9dd4-2695cd638388",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:31:39 pm",
+    "duration": 29,
+    "createdAt": "2025-10-24T07:01:39.775Z",
+    "updatedAt": "2025-10-24T07:01:39.775Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2477e6ceafbd337eae75",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "a634373f-e8b3-457c-b7ee-1206e993994a",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:32:15 pm",
+    "duration": 11,
+    "createdAt": "2025-10-24T07:02:15.618Z",
+    "updatedAt": "2025-10-24T07:02:15.618Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb24ace6ceafbd337eae77",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "7b9fd5c3-fb7c-430e-b09a-bf5d6f86840f",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:33:08 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:03:08.741Z",
+    "updatedAt": "2025-10-24T07:03:08.741Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb24aee6ceafbd337eae79",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "9f95bfe1-b78f-48b1-a5cc-259ae22101e2",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:33:10 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:03:10.254Z",
+    "updatedAt": "2025-10-24T07:03:10.254Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb24cd7625bf59baa69d2c",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "5e47b6ef-97b0-4edf-af4d-fc3061761525",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:33:41 pm",
+    "duration": 7,
+    "createdAt": "2025-10-24T07:03:41.279Z",
+    "updatedAt": "2025-10-24T07:03:41.279Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb25397625bf59baa69d2e",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "a80a18fb-d0a3-4698-bfbb-35a09fa8cd19",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:35:29 pm",
+    "duration": 2,
+    "createdAt": "2025-10-24T07:05:29.956Z",
+    "updatedAt": "2025-10-24T07:05:29.956Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb25477625bf59baa69d30",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "21c7756d-6e31-4974-babd-d31071a0de2d",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:35:43 pm",
+    "duration": 2,
+    "createdAt": "2025-10-24T07:05:43.509Z",
+    "updatedAt": "2025-10-24T07:05:43.509Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb25497625bf59baa69d32",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "d9b6a3b9-053f-4b84-bdfd-f8457dc9b249",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:35:45 pm",
+    "duration": 2,
+    "createdAt": "2025-10-24T07:05:45.920Z",
+    "updatedAt": "2025-10-24T07:05:45.920Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb25f79bed22099930fd86",
+    "method": "GET",
+    "url": "/api/logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "b2efd092-0e5f-46e1-85a8-f9416f75af58",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "[{\"_id\":\"68fb21ebec32a89e3217b7e5\",\"method\":\"POST\",\"url\":\"/api/auth/login\",\"headers\":{\"content-type\":\"application/json\",\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"ea041aab-0dd5-4051-8a42-3550752ef05a\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-length\":\"94\"},\"body\":{\"email\":\"nitinmalviya@gmail.com\",\"password\":\"12345678\",\"role\":\"admin\"},\"response\":\"{\\\"success\\\":true,\\\"statusCode\\\":200,\\\"user\\\":{\\\"_id\\\":\\\"68ef9a2751c2a8a881573f8e\\\",\\\"firstName\\\":\\\"Nitin\\\",\\\"lastName\\\":\\\"Malviya\\\",\\\"role\\\":\\\"admin\\\",\\\"email\\\":\\\"nitinmalviya@gmail.com\\\"},\\\"access_token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmOWEyNzUxYzJhOGE4ODE1NzNmOGUiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjEyODg2ODMsImV4cCI6MTc2MTM0MjY4M30.8IJU_d-H8zvEWsAZuQwklLubF-EGoXKiqZ-I6dYsI_o\\\",\\\"message\\\":\\\"User logged in successfully\\\"}\",\"dateTime\":\"24/10/2025, 12:21:23 pm\",\"duration\":174,\"createdAt\":\"2025-10-24T06:51:23.370Z\",\"updatedAt\":\"2025-10-24T06:51:23.370Z\",\"__v\":0},{\"_id\":\"68fb2248ec32a89e3217b7e7\",\"method\":\"PUT\",\"url\":\"/api/books/68ef917783a1d373c54b65f7\",\"headers\":{\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmODFiODQ0MzRiZGJhNTEwZWNkNzYiLCJpYXQiOjE3NjA1MjY3NzcsImV4cCI6MTc2MDU4MDc3N30.LZT9_hFzEI4_NemIyB7rVs1RFSf6LMDp35mkw7p3L5A\",\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"819882d1-bd5c-4dac-8e5c-6fc3240aa664\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-type\":\"multipart/form-data; boundary=--------------------------521686388455265468056324\",\"content-length\":\"72417\"},\"response\":\"{\\\"message\\\":\\\"Unauthorized\\\",\\\"statusCode\\\":401}\",\"dateTime\":\"24/10/2025, 12:22:56 pm\",\"duration\":12,\"createdAt\":\"2025-10-24T06:52:56.466Z\",\"updatedAt\":\"2025-10-24T06:52:56.466Z\",\"__v\":0},{\"_id\":\"68fb225cec32a89e3217b7e9\",\"method\":\"GET\",\"url\":\"/api/books/68ef9a4551c2a8a881573f90\",\"headers\":{\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmOWEyNzUxYzJhOGE4ODE1NzNmOGUiLCJpYXQiOjE3NjA1MzMwMzEsImV4cCI6MTc2MDU4NzAzMX0.nQFwGrbHo1N2IGWk3-MFmb93CLLfrl1_9Rafq9vH2cc\",\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"b7abd023-f7a2-4da2-8f94-7ab24bc007be\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Unauthorized\\\",\\\"statusCode\\\":401}\",\"dateTime\":\"24/10/2025, 12:23:16 pm\",\"duration\":10,\"createdAt\":\"2025-10-24T06:53:16.860Z\",\"updatedAt\":\"2025-10-24T06:53:16.860Z\",\"__v\":0},{\"_id\":\"68fb228eec32a89e3217b7eb\",\"method\":\"DELETE\",\"url\":\"/api/books/68f0d9562a7b75577313784b\",\"headers\":{\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmODFiODQ0MzRiZGJhNTEwZWNkNzYiLCJpYXQiOjE3NjA1MjY3NzcsImV4cCI6MTc2MDU4MDc3N30.LZT9_hFzEI4_NemIyB7rVs1RFSf6LMDp35mkw7p3L5A\",\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"b5d43bbb-540a-4c05-b362-e9bfd61b00d2\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Unauthorized\\\",\\\"statusCode\\\":401}\",\"dateTime\":\"24/10/2025, 12:24:06 pm\",\"duration\":3,\"createdAt\":\"2025-10-24T06:54:06.464Z\",\"updatedAt\":\"2025-10-24T06:54:06.464Z\",\"__v\":0},{\"_id\":\"68fb22dfec32a89e3217b7ed\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"92cc103f-632f-4bec-afde-92ca222872cd\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:25:27 pm\",\"duration\":4,\"createdAt\":\"2025-10-24T06:55:27.580Z\",\"updatedAt\":\"2025-10-24T06:55:27.580Z\",\"__v\":0},{\"_id\":\"68fb2452d6c4040a3568b7a1\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"16089cf5-8f90-4306-b808-48a3265ed833\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:31:38 pm\",\"duration\":8,\"createdAt\":\"2025-10-24T07:01:38.123Z\",\"updatedAt\":\"2025-10-24T07:01:38.123Z\",\"__v\":0},{\"_id\":\"68fb2453d6c4040a3568b7a3\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"fb22b694-73f9-4a44-9dd4-2695cd638388\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:31:39 pm\",\"duration\":29,\"createdAt\":\"2025-10-24T07:01:39.775Z\",\"updatedAt\":\"2025-10-24T07:01:39.775Z\",\"__v\":0},{\"_id\":\"68fb2477e6ceafbd337eae75\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"a634373f-e8b3-457c-b7ee-1206e993994a\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:32:15 pm\",\"duration\":11,\"createdAt\":\"2025-10-24T07:02:15.618Z\",\"updatedAt\":\"2025-10-24T07:02:15.618Z\",\"__v\":0},{\"_id\":\"68fb24ace6ceafbd337eae77\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"7b9fd5c3-fb7c-430e-b09a-bf5d6f86840f\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:33:08 pm\",\"duration\":1,\"createdAt\":\"2025-10-24T07:03:08.741Z\",\"updatedAt\":\"2025-10-24T07:03:08.741Z\",\"__v\":0},{\"_id\":\"68fb24aee6ceafbd337eae79\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"9f95bfe1-b78f-48b1-a5cc-259ae22101e2\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:33:10 pm\",\"duration\":1,\"createdAt\":\"2025-10-24T07:03:10.254Z\",\"updatedAt\":\"2025-10-24T07:03:10.254Z\",\"__v\":0},{\"_id\":\"68fb24cd7625bf59baa69d2c\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"5e47b6ef-97b0-4edf-af4d-fc3061761525\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:33:41 pm\",\"duration\":7,\"createdAt\":\"2025-10-24T07:03:41.279Z\",\"updatedAt\":\"2025-10-24T07:03:41.279Z\",\"__v\":0},{\"_id\":\"68fb25397625bf59baa69d2e\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"a80a18fb-d0a3-4698-bfbb-35a09fa8cd19\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:35:29 pm\",\"duration\":2,\"createdAt\":\"2025-10-24T07:05:29.956Z\",\"updatedAt\":\"2025-10-24T07:05:29.956Z\",\"__v\":0},{\"_id\":\"68fb25477625bf59baa69d30\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"21c7756d-6e31-4974-babd-d31071a0de2d\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:35:43 pm\",\"duration\":2,\"createdAt\":\"2025-10-24T07:05:43.509Z\",\"updatedAt\":\"2025-10-24T07:05:43.509Z\",\"__v\":0},{\"_id\":\"68fb25497625bf59baa69d32\",\"method\":\"GET\",\"url\":\"/api/logs\",\"headers\":{\"user-agent\":\"PostmanRuntime/7.49.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"d9b6a3b9-053f-4b84-bdfd-f8457dc9b249\",\"host\":\"127.0.0.1:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"},\"response\":\"{\\\"message\\\":\\\"Cannot GET /api/logs\\\",\\\"error\\\":\\\"Not Found\\\",\\\"statusCode\\\":404}\",\"dateTime\":\"24/10/2025, 12:35:45 pm\",\"duration\":2,\"createdAt\":\"2025-10-24T07:05:45.920Z\",\"updatedAt\":\"2025-10-24T07:05:45.920Z\",\"__v\":0}]",
+    "dateTime": "24/10/2025, 12:38:39 pm",
+    "duration": 63,
+    "createdAt": "2025-10-24T07:08:39.996Z",
+    "updatedAt": "2025-10-24T07:08:39.996Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb27f2c7abc1d7a2afd6d9",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "e3d6b7f4-9d26-4149-b31d-80ae2fca67ad",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:47:06 pm",
+    "duration": 5,
+    "createdAt": "2025-10-24T07:17:06.260Z",
+    "updatedAt": "2025-10-24T07:17:06.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2813c7abc1d7a2afd6db",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "198df533-b3f2-4119-96e4-2f19ac2aaaf0",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:47:39 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:17:39.810Z",
+    "updatedAt": "2025-10-24T07:17:39.810Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2843c7abc1d7a2afd6dd",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "90d7465c-051b-4c35-85b6-4802baa029d9",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:48:27 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:18:27.995Z",
+    "updatedAt": "2025-10-24T07:18:27.995Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb284ec7abc1d7a2afd6df",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "d843f098-bbf0-413b-86a5-bf656f1dbcf4",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:48:38 pm",
+    "duration": 2,
+    "createdAt": "2025-10-24T07:18:38.466Z",
+    "updatedAt": "2025-10-24T07:18:38.466Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb284fc7abc1d7a2afd6e1",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "f1de364b-867a-4ea9-b140-92ede9e61dcb",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:48:39 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:18:39.973Z",
+    "updatedAt": "2025-10-24T07:18:39.973Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb2860c7abc1d7a2afd6e3",
+    "method": "POST",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "7e7dbbcf-61ec-4303-b704-c535cc9e2bda",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "0"
+    },
+    "response": "{\"message\":\"Cannot POST /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:48:56 pm",
+    "duration": 0,
+    "createdAt": "2025-10-24T07:18:56.646Z",
+    "updatedAt": "2025-10-24T07:18:56.646Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb29242db86413cbcba78a",
+    "method": "POST",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "f8e44fb2-0101-4ea5-9134-8f5a1029e3ef",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "0"
+    },
+    "response": "{\"message\":\"Cannot POST /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:52:12 pm",
+    "duration": 10,
+    "createdAt": "2025-10-24T07:22:12.707Z",
+    "updatedAt": "2025-10-24T07:22:12.707Z",
+    "__v": 0
+  },
+  {
+    "_id": "68fb292a2db86413cbcba78c",
+    "method": "GET",
+    "url": "/api/logs/download-logs",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.49.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "f1702db5-87fa-43c7-ac8c-5ab5103da454",
+      "host": "127.0.0.1:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "response": "{\"message\":\"Cannot GET /api/logs/download-logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+    "dateTime": "24/10/2025, 12:52:18 pm",
+    "duration": 1,
+    "createdAt": "2025-10-24T07:22:18.521Z",
+    "updatedAt": "2025-10-24T07:22:18.521Z",
+    "__v": 0
+  }
+]
